@@ -18,7 +18,6 @@ class TipButton: UIButton {
         self.layer.masksToBounds = true
         self.backgroundColor = .tealColor
         self.setTitleColor(.redColor, for: .normal)
-        self.titleLabel?.font = .warsawGothic
         self.titleLabel?.font.withSize(20)
     }
 } // End of Class

@@ -13,7 +13,6 @@ class TipTextField: UITextField {
     }
     
     func setupView() {
-        self.font = .warsawGothic
         self.addCornerRadius(radius: 10)
         self.textColor = .black
         self.backgroundColor = #colorLiteral(red: 0.9803921569, green: 0.9069960468, blue: 0.9780264453, alpha: 1)
@@ -26,7 +25,6 @@ class TipTextField: UITextField {
         
         self.attributedPlaceholder = NSAttributedString(string: currentPlaceholderText, attributes: [
             .foregroundColor : UIColor.black,
-            .font : UIFont.warsawGothic!
         ])
     }
 } // End of Class

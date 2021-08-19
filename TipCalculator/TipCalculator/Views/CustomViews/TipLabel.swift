@@ -12,7 +12,6 @@ class TipLabel: UILabel {
         super.awakeFromNib()
         
         self.textColor = .black
-        updateFont(font: .warsawGothic!)
     }
     
     func updateFont(font: UIFont) {

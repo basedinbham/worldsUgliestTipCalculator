@@ -15,7 +15,6 @@
 		27705D4A26CB00EF00003A08 /* TipCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27705D4926CB00EF00003A08 /* TipCalculatorViewController.swift */; };
 		27705D4D26CB033D00003A08 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27705D4C26CB033D00003A08 /* Media.xcassets */; };
 		27705D5026CB056E00003A08 /* StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27705D4F26CB056E00003A08 /* StyleGuide.swift */; };
-		27705D5326CB068300003A08 /* WarsawGothic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 27705D5226CB068300003A08 /* WarsawGothic.otf */; };
 		27705D5526CB080E00003A08 /* TipTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27705D5426CB080E00003A08 /* TipTextField.swift */; };
 		27705D5726CB0F4600003A08 /* TipButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27705D5626CB0F4600003A08 /* TipButton.swift */; };
 		27705D5926CB106E00003A08 /* TipLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27705D5826CB106E00003A08 /* TipLabel.swift */; };
@@ -32,7 +31,6 @@
 		27705D4926CB00EF00003A08 /* TipCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorViewController.swift; sourceTree = "<group>"; };
 		27705D4C26CB033D00003A08 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		27705D4F26CB056E00003A08 /* StyleGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuide.swift; sourceTree = "<group>"; };
-		27705D5226CB068300003A08 /* WarsawGothic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = WarsawGothic.otf; path = ../../../../../../../Downloads/WarsawGothic.otf; sourceTree = "<group>"; };
 		27705D5426CB080E00003A08 /* TipTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipTextField.swift; sourceTree = "<group>"; };
 		27705D5626CB0F4600003A08 /* TipButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipButton.swift; sourceTree = "<group>"; };
 		27705D5826CB106E00003A08 /* TipLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipLabel.swift; sourceTree = "<group>"; };
@@ -68,10 +66,8 @@
 		27705D2C26CAF89D00003A08 /* TipCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				27705D4726CAF8EA00003A08 /* Models */,
 				27705D4826CAF90C00003A08 /* Controllers */,
 				27705D4326CAF8CD00003A08 /* Views */,
-				27705D4226CAF8C700003A08 /* Helpers+Extensions */,
 				27705D4126CAF8C200003A08 /* Resources */,
 			);
 			path = TipCalculator;
@@ -80,7 +76,6 @@
 		27705D4126CAF8C200003A08 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				27705D5126CB067800003A08 /* Fonts */,
 				27705D2D26CAF89D00003A08 /* AppDelegate.swift */,
 				27705D2F26CAF89D00003A08 /* SceneDelegate.swift */,
 				27705D3626CAF89F00003A08 /* Assets.xcassets */,
@@ -88,13 +83,6 @@
 				27705D3B26CAF89F00003A08 /* Info.plist */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		27705D4226CAF8C700003A08 /* Helpers+Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Helpers+Extensions";
 			sourceTree = "<group>";
 		};
 		27705D4326CAF8CD00003A08 /* Views */ = {
@@ -123,24 +111,9 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		27705D4626CAF8E200003A08 /* ModelControllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ModelControllers;
-			sourceTree = "<group>";
-		};
-		27705D4726CAF8EA00003A08 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		27705D4826CAF90C00003A08 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				27705D4626CAF8E200003A08 /* ModelControllers */,
 				27705D4526CAF8DC00003A08 /* ViewControllers */,
 			);
 			path = Controllers;
@@ -155,14 +128,6 @@
 				27705D5826CB106E00003A08 /* TipLabel.swift */,
 			);
 			path = CustomViews;
-			sourceTree = "<group>";
-		};
-		27705D5126CB067800003A08 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				27705D5226CB068300003A08 /* WarsawGothic.otf */,
-			);
-			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,7 +187,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27705D5326CB068300003A08 /* WarsawGothic.otf in Resources */,
 				27705D3A26CAF89F00003A08 /* LaunchScreen.storyboard in Resources */,
 				27705D3726CAF89F00003A08 /* Assets.xcassets in Resources */,
 				27705D4D26CB033D00003A08 /* Media.xcassets in Resources */,
